@@ -2,11 +2,8 @@ import java.util.Scanner;
 
 public class Greet {
     static String Greet(String name) {
-        String Message = "Hello "+name;
+        String Message = "Hello " + name;
         return Message;
-        
-        
-
     }
 
     public static void main(String[] args) {
@@ -15,7 +12,7 @@ public class Greet {
         String name = input.next();
         String outpString = Greet(name);
         System.out.println(outpString);
-        
+
     }
-    
+
 }
