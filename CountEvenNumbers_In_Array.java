@@ -9,6 +9,15 @@ public class CountEvenNumbers_In_Array {
     }
 
     static int noofdigits(int num) {
+        if (num < 0) {
+            num *= -1;
+            
+        }
+        ;
+        if (num == 0) {
+            return 1;
+            
+        }
         int count = 0;
         while (num > 0) {
             count++;
