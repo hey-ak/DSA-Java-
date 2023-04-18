@@ -1,4 +1,4 @@
-public class Ceiling_of_Number {
+public class floor_of_Number {
 
     static int Bs(int arr[], int target) {
         int start = 0;
@@ -14,7 +14,7 @@ public class Ceiling_of_Number {
                 return target;
             }
         }
-        return start;
+        return end;
     }
 
     public static void main(String[] args) {
