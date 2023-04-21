@@ -11,6 +11,7 @@ public class ModifiedBS {
             }
             if (isasc) {
                 if (arr[mid] > key) {
+                    
                     end = mid - 1;
 
                 } else if (arr[mid] < key) {
